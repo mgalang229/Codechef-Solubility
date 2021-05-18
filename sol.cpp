@@ -10,7 +10,7 @@ int main() {
 	while (tt--) {
 		int x, a, b;
 		cin >> x >> a >> b;
-		// simply apply the formula
+		// view the image in this repository for derivation of formula
 		cout << (a + (100 - x) * b) * 10 << '\n';
 	}
 	return 0;
